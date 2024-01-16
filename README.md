@@ -1,2 +1,2 @@
 # Redux
-Redux репозиторий
+State manager Redux репозиторий
