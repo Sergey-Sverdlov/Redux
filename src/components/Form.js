@@ -1,6 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {useDispatch} from "react-redux";
+import {addTodo} from "../features/todo/todoSlice";
+import { v4 as uuidv4 } from 'uuid';
 
 const Form = () => {
+    const dispatch = useDispatch()
+    const [todoValue, setTodoValue] = useState('')
+    const addTodoHandler = () => {
+        const todo = {
+            id: uuidv4(),
+            text: '',
+            completed: false
+        }
+    }
     return (
         <form className='w-full flex' onSubmit={(e) => e.preventDefault()}>
             <input

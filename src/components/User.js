@@ -2,8 +2,8 @@ import React from 'react'
 import FirstName from './FirstName'
 import LastName from './LastName'
 import {useDispatch} from 'react-redux'
-import {setFirstName} from "../featuresUser/userSlice"
-import {setLastName} from "../featuresUser/userSlice";
+import {setFirstName} from "../features/user/userSlice"
+import {setLastName} from "../features/user/userSlice";
 
 const User = () => {
     const dispatch = useDispatch()
