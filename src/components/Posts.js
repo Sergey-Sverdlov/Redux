@@ -3,11 +3,9 @@ import PostItem from './PostItem'
 import {useDispatch} from "react-redux";
 import {getPosts} from "../features/post/postSlice";
 import {useSelector} from "react-redux";
-
 const Posts = () => {
     const dispatch = useDispatch()
     const posts = useSelector(state => state.post.posts)
-    console.log(posts)
     return (
         <div>
             <button
