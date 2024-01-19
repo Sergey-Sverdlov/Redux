@@ -10,7 +10,8 @@ const Form = () => {
         const todo = {
             id: uuidv4(),
             text: todoValue,
-            completed: false
+            completed: false,
+            edit: false
         }
         dispatch(addTodo(todo))
         setTodoValue('')
