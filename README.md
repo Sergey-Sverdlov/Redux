@@ -1,3 +1,7 @@
+# Доступен по адресу
+https://65fb6d7d34d8543c01d2c441--melodic-bubblegum-d842e6.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
